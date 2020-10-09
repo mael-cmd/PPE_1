@@ -12,8 +12,8 @@
         <Grid>
             <TextBox x:Name="TextBox_Nom" HorizontalAlignment="Left" Height="27" Margin="265,80,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="300" TextAlignment="Center"/>
             <TextBox x:Name="TextBox_Prenom" HorizontalAlignment="Left" Height="27" Margin="265,107,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="300" TextAlignment="Center"/>
-            <TextBox x:Name="TextBox_DateDeNaissance" HorizontalAlignment="Left" Height="27" Margin="265,134,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="300" TextAlignment="Center"/>
-            <TextBox x:Name="TextBox_Email" HorizontalAlignment="Left" Height="27" Margin="265,161,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="300" TextAlignment="Center"/>
+            <DatePicker HorizontalAlignment="Left" Height="27" Margin="265,133,0,259" Width="300"></DatePicker>
+                <TextBox x:Name="TextBox_Email" HorizontalAlignment="Left" Height="27" Margin="265,161,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="300" TextAlignment="Center"/>
             <TextBox x:Name="TextBox_Numero" HorizontalAlignment="Left" Height="27" Margin="265,188,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="300" TextAlignment="Center"/>
             <TextBox x:Name="TextBox_Adresse" HorizontalAlignment="Left" Height="27" Margin="265,215,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="300" TextAlignment="Center"/>
         </Grid>
